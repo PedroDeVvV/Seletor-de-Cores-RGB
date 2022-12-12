@@ -4,8 +4,8 @@
 
 Desafio proposto em uma atividade pela ETEC de Embu, cujo objetivo foi trabalhar com DOM, eventos e funções..
 
-![preview](./LT.gif)
-🔗[Clique aqui para acessar](https://pedrodevvv.github.io/Timer-JS/)
+![preview](./LT.gif)<br>
+🔗[Clique aqui para acessar](https://pedrodevvv.github.io/Seletor-de-Cores-RGB/)
 ## 🛠️Tecnologias
 
 * JavaScript
