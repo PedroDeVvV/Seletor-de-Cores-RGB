@@ -27,6 +27,30 @@ function trocaCor() {
   //altera cor do titulo
   let titulo = document.querySelector('h1');
   titulo.style.textShadow = `3px 3px ${rgb}`;
+
+  //gerador de cores
+  function rand(min = 0, max = 255) {
+    const num = Math.random() * (max - min) +
+      min;
+    return Math.floor(num);
+  }
+
+  const randColor = document.querySelector('.rand');
+  let geradorRand = rand();
+
+  randColor.addEventListener('click', function (e) {
+    rgb = `RGB( ${rand()} ,${rand()} ,${rand()} )`;
+    divCor.style.background = rgb;
+    textoRGB.innerText = rgb;
+    //altera cor do texto
+    textoRGB.style.backgroundColor = rgb;
+    //altera cor da borda
+    rtext.style.borderColor = rgb;
+    gtext.style.borderColor = rgb;
+    btext.style.borderColor = rgb;
+    titulo.style.textShadow = `3px 3px ${rgb}`;
+    console.log(rgb);
+  })
 }
 
 trocaCor();

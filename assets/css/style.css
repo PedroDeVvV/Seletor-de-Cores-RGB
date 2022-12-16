@@ -36,18 +36,17 @@ h1 {
     margin-bottom: 30px;
 }
 
+.inputUm, .inputDois, .inputTres {
+    cursor: pointer;
+}
+
 .quadrado {
-    background-color: aqua;
     width: 150px;
     height: 150px;
     border-radius: 8px;
     text-align: center;
     margin: auto;
     border: solid 3px white;
-}
-
-.quadrado img {
-    opacity: 0.001;
 }
 
 .textUm,
@@ -75,4 +74,18 @@ h1 {
     text-align: center;
     border: solid 3px white;
     padding: 10px;
+}
+
+.rand {
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    border: solid 2px black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rand:hover{
+    padding-bottom: 15px;
+    transition: .5s;
 }
