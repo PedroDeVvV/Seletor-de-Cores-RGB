@@ -49,7 +49,6 @@ function trocaCor() {
     gtext.style.borderColor = rgb;
     btext.style.borderColor = rgb;
     titulo.style.textShadow = `3px 3px ${rgb}`;
-    console.log(rgb);
   })
 }
 
